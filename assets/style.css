@@ -9,16 +9,16 @@ h1 {
 aside {
 	text-align: center;
     background-color: #E3D1B5;
-    width: 33%;
-    margin: 0 1.5%;
+    width: 20%;
+    margin: 0 4.9%;
     display: inline-block;
-    vertical-align: middle;
+    vertical-align: top;
 }
 
 article {
     text-align: justify;
     width: 60%;
-    margin: 0 1.5%;
+    margin: 0 4.9%;
     display: inline-block;
     vertical-align: middle;
 }
