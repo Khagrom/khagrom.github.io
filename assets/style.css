@@ -1,0 +1,87 @@
+html {
+	font-family: calibri;
+}
+
+h1 {
+	margin-left: 20px;
+}
+
+aside {
+	text-align: center;
+    background-color: #E3D1B5;
+    width: 33%;
+    margin: 0 1.5%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+article {
+    text-align: justify;
+    width: 60%;
+    margin: 0 1.5%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header li {
+	background: #E3D1B5;
+    display: inline;
+    border: 2px solid black;
+    border-bottom: none;
+    padding: 3px 15px;
+}
+
+header ul {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 3px;
+}
+
+header {
+    height: 120px;
+    position: relative;
+    border: 2px solid black;
+    background:
+        url("Hearthstone.png") no-repeat right;
+    margin-top: 4px;
+}
+
+header a {
+    color: black;
+}
+
+body {
+    background: #FFF2DF;
+    min-width: 600px;
+    max-width: 1000px;
+    margin: 0 auto;
+    width: 75%;
+}
+
+header img {
+    float: left;
+}
+
+section#corps {
+    border-top: 3px solid gray;
+    border-bottom: 3px solid gray;
+    border-bottom: 3px solid gray;
+    margin: 5px;
+}
+
+footer li {
+    display: table-cell;
+    border: 1px black solid;
+    padding: 0 10px;
+}
+
+footer ul {
+    display: table;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border-style: hidden;
+}
+
+h2 {
+    font-size: 120%;
+}
