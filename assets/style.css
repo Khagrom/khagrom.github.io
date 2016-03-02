@@ -10,15 +10,15 @@ aside {
 	text-align: center;
     background-color: #E3D1B5;
     width: 20%;
-    margin: 20px 4.9%;
+    margin: 20px 50px;
     display: inline-block;
     vertical-align: top;
 }
 
 article {
     text-align: justify;
-    width: 60%;
-    margin: 0 4.9%;
+    width: 50%;
+    margin: 0 75px;
     display: inline-block;
     vertical-align: middle;
 }
@@ -55,7 +55,7 @@ body {
     min-width: 600px;
     max-width: 1000px;
     margin: 0 auto;
-    width: 75%;
+    width: 50%;
 }
 
 header img {
