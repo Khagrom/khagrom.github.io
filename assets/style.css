@@ -6,6 +6,10 @@ h1 {
 	margin-left: 20px;
 }
 
+a {
+	text-decoration:none;
+}
+
 aside {
 	text-align: center;
     background-color: #E3D1B5;
@@ -31,6 +35,10 @@ header li {
     padding: 3px 15px;
 }
 
+header li:hover {
+	background: #EEE3D2;
+}
+
 header ul {
     position: absolute;
     bottom: 0;
@@ -42,7 +50,7 @@ header {
     position: relative;
     border: 2px solid black;
     background:
-        url("Hearthstone.png") no-repeat right;
+        url("banner2.png") no-repeat right;
     margin-top: 4px;
 }
 
@@ -84,4 +92,9 @@ footer ul {
 
 h2 {
     font-size: 120%;
+	margin-left: -20px;
+}
+
+aside h2 {
+	margin-left: 0px;
 }
