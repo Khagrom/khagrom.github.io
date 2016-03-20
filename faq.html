@@ -7,15 +7,16 @@
 </head>
 <body>
 <header>
-	<nav>
-		<ul>
-			<li><a href="index.html">Accueil</a></li>
-			<li><a href="boutique.html">Boutique</a></li>
-			<li style="background: #EEE3D2"><a href="faq.html">F.A.Q.</a></li>
-			<li><a href="recherche.html">Recherche</a></li>
-		</ul>
-	</nav>
 </header>
+	<div id='cssmenu'>
+		<ul>
+			<li><a href='index.html'><span>Accueil</span></a></li>
+			<li><a href='boutique.html'><span>Boutique</span></a></li>
+			<li><a href='panier.html'><span>Panier</span></a></li>
+			<li class='active'><a href='#'><span>F.A.Q.</span></a></li>
+			<li class='last'><a><form action='recherche.html'><span>Recherche : </span><input placeholder='Mot-clé'/><input type="submit" style='display:none'/></form></a></li>
+		</ul>
+	</div>
 <section id="corps">
 	<article>
 		<section>
@@ -37,11 +38,11 @@
 	</article>
 	<aside>
 		<section>
-			<h2>Nouveauté !</h2>
+			<h2>Nouveauté</h2>
 			<p align="center"><img src="assets/cards/reno.png" alt="Reno Jackson" style="height:225px;"></p>
 		</section>
 		<section>
-			<h2>Meilleure vente !</h2>
+			<h2>Meilleure vente</h2>
 			<p align="center"><img src="assets/cards/malorne.png" alt="Malorne" style="height:225px;"></p>
 		</section>
 	</aside>
