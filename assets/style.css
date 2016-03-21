@@ -187,3 +187,67 @@ input {
 	margin-right:-10px;
 	margin-left:10px;
 }
+
+div.img {
+    margin: 20px 5px;
+    float: left;
+    width: 30.8%;
+}
+
+
+div.img img {
+    width: 100%;
+    height: auto;
+	-webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* IE 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+}
+
+div.img:hover img {
+    -webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+     transform:scale(1.25);
+}
+
+div.desc {
+    padding: 2px;
+    text-align: center;
+}
+
+ul.pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+ul.pagination li {display: inline;}
+
+ul.pagination li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+ul.pagination li a.active {
+    background-color: #E3D1B5;
+    color: white;
+}
+
+ul.pagination li a:hover:not(.active) {background-color: #ddd;}
+
+.float_center {
+  float: right;
+  clear: both;
+  position: relative;
+  left: -50%;
+  text-align: left;
+}
+.float_center > .child {
+  position: relative;
+  left: 50%;
+}
