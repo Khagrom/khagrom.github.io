@@ -214,8 +214,9 @@ div.img:hover img {
 }
 
 div.desc {
-    padding: 2px;
+    padding: 5px;
     text-align: center;
+	font-size:100%;
 }
 
 ul.pagination {
