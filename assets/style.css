@@ -351,6 +351,7 @@ ul.pagination li a:hover:not(.active) {background-color: #ddd;}
 .button {
     text-align: center;
 	width:25px;
+	height:25px;
 	margin-right:10px;
 }
 input.buttonplus { width:25px; height:25px; margin:5px;}
