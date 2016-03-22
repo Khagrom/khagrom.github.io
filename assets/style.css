@@ -354,5 +354,5 @@ ul.pagination li a:hover:not(.active) {background-color: #ddd;}
 	height:25px;
 	margin-right:10px;
 }
-input.buttonplus { width:25px; height:25px; margin:5px;}
-input.buttonminus { width:25px; height:25px; margin:5px;}
+input.buttonplus { width:25px; height:25px; margin:5px; margin-bottom:10px;}
+input.buttonminus { width:25px; height:25px; margin:5px; margin-top:10px;}
