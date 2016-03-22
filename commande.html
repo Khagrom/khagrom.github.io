@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <title>Paperstone</title>
+</head>
+<body>
+<header>
+</header>
+	<div id='cssmenu'>
+		<ul>
+			<li><a href='#'><span>Accueil</span></a></li>
+			<li><a href='boutique.html'><span>Boutique</span></a></li>
+			<li class='active'><a href='panier.html'><span>Panier</span></a></li>
+			<li><a href='faq.html'><span>F.A.Q.</span></a></li>
+			<li class='last'><a><form action='recherche.html'><span>Recherche : </span><input placeholder='Mot-clé'/><input type="submit" style='display:none'/></form></a></li>
+		</ul>
+	</div>
+<section id="corps">
+	<article>
+		<h2>Paye, enfoiré !</h2>
+		<form>
+		<ul class="form-style-1">
+			<li><label>Nom / Prénom <span class="required">*</span></label><input type="text" name="field1" class="field-divided" placeholder="Nom" />&nbsp;<input type="text" name="field2" class="field-divided" placeholder="Prénom" /></li>
+			<li>
+				<label>Email <span class="required">*</span></label>
+				<input type="email" name="field3" class="field-long" />
+			</li>
+			<li>
+				<label>Type de commande</label>
+				<select name="field4" class="field-select">
+				<option value="Advertise">Express</option>
+				<option value="Partnership">Prends ton temps mec</option>
+				<option value="General Question">En vrai je m'en bats les couilles</option>
+				</select>
+			</li>
+			<li>
+				<label>Commentaire <span class="required">*</span></label>
+				<textarea name="field5" id="field5" class="field-long field-textarea"></textarea>
+			</li>
+			<a href="../panier.html"><button name='Ajouter au panier' type='button' style="cursor:pointer;">Ajouter au panier</button></a>
+		</ul>
+		</form>
+	</article>
+	
+	<aside>
+		<section>
+			<div class="float_center">
+				<h2 class="child" align="center">Nouveauté</h2>
+				<div class="img child" style="margin-top:-5px">
+					<a href="cards/reno.html">
+					<img src="assets/cards/reno.png" alt="Reno Jackson" style="width:158px;">
+					</a>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="float_center">
+				<h2 class="child" align="center">Meilleure vente</h2>
+				<div class="img child" style="margin-top:-5px">
+					<a href="cards/malorne.html">
+					<img src="assets/cards/malorne.png" alt="Malorne" style="width:158px;">
+					</a>
+				</div>
+			</div>
+		</section>
+	</aside>
+</section>
+<footer>
+    <ul>
+        <li>Réalisé avec Notepad++</li>
+		<li>HTML5 et CSS3</li>
+        <li>Auteurs : Jean DEBARD et Vincent POIRIER</li>
+    </ul>
+</footer>
+</body>
+</html>
