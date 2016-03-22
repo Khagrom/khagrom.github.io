@@ -359,25 +359,45 @@ input.buttonminus { width:25px; height:25px; margin:11px 5px 0px 5px;}
 
 
 button {
-  background-color:#E3D1B5;
-  line-height:48px;
-  padding:0 25px 0 85px;
-  position:relative;
-  color:black;
-  border:1px solid black;
-  font-size:12px;
-  font-weight:bold;
-  text-transform:uppercase;
-  margin:10px 10px 10px 0px;
-  
+	background-color:#E3D1B5;
+	line-height:48px;
+	padding:0 25px 0 85px;
+	position:relative;
+	color:black;
+	border:1px solid black;
+	font-size:12px;
+	font-weight:bold;
+	text-transform:uppercase;
+	margin:10px 10px 10px 0px;
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-transition-duration: .25s;
+	-moz-transition-duration: .25s;
+	-ms-transition-duration: .25s;
+	-o-transition-duration: .25s;
+	transition-duration: .25s;
+	-webkit-transition-property: box-shadow, background-color;
+	-moz-transition-property: box-shadow, background-color;
+	-ms-transition-property: box-shadow, background-color;
+	-o-transition-property: box-shadow, background-color;
+	transition-property: box-shadow, background-color;
 }
 
 button:before {
-  content:url("cart.png");
-  position:absolute;
-  top:0px;
-  left:0px;
-  background-color:black;
-  height:50px;
-  width:60px;
+	content:url("cart.png");
+	position:absolute;
+	top:0px;
+	left:0px;
+	background-color:black;
+	height:50px;
+	width:60px;
+}
+
+button:hover {
+	background-color:#ffffff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
 }
