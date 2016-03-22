@@ -344,3 +344,15 @@ ul.pagination li a:hover:not(.active) {background-color: #ddd;}
 .papertable tr:first-child td:last-child{
 	border-width:0px 0px 1px 1px;
 }
+
+#plusminus {
+    text-align: center;
+	width:24px;
+}
+.button {
+    text-align: center;
+	width:17.5px;
+	margin-left:5px;
+}
+input.buttonplus { width:25px; height:25px; margin:5px;}
+input.buttonminus { width:25px; height:25px; margin:5px;}
