@@ -356,3 +356,28 @@ ul.pagination li a:hover:not(.active) {background-color: #ddd;}
 }
 input.buttonplus { width:25px; height:25px; margin:0px 5px 10px 5px;}
 input.buttonminus { width:25px; height:25px; margin:11px 5px 0px 5px;}
+
+
+button {
+  background-color:#E3D1B5;
+  line-height:48px;
+  padding:0 25px 0 85px;
+  position:relative;
+  color:black;
+  border:1px solid black;
+  font-size:12px;
+  font-weight:bold;
+  text-transform:uppercase;
+  margin:10px 10px 10px 0px;
+  
+}
+
+button:before {
+  content:url("cart.png");
+  position:absolute;
+  top:0px;
+  left:0px;
+  background-color:black;
+  height:50px;
+  width:60px;
+}
