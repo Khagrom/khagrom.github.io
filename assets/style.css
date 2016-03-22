@@ -309,8 +309,7 @@ ul.pagination li a:hover:not(.active) {background-color: #ddd;}
 	border-width:0px 1px 1px 0px;
 	text-align:center;
 	padding:10px;
-	font-size:10px;
-	font-weight:bold;
+	font-size:15px;
 	color:#000000;
 }.papertable tr:last-child td{
 	border-width:0px 1px 0px 0px;
@@ -328,7 +327,7 @@ ul.pagination li a:hover:not(.active) {background-color: #ddd;}
 	border:0px solid #000000;
 	text-align:center;
 	border-width:0px 0px 1px 1px;
-	font-size:14px;
+	font-size:15px;
 	font-weight:bold;
 	color:#ffffff;
 }
