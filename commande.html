@@ -19,27 +19,37 @@
 	</div>
 <section id="corps">
 	<article>
-		<h2>Paye, enfoiré !</h2>
+		<h2>Formulaire de paiement</h2>
 		<form>
 		<ul class="form-style-1">
-			<li><label>Nom / Prénom <span class="required">*</span></label><input type="text" name="field1" class="field-divided" placeholder="Nom" />&nbsp;<input type="text" name="field2" class="field-divided" placeholder="Prénom" /></li>
+			<li>
+				<label>Nom / Prénom <span class="required">*</span></label>
+				<input type="text" name="field1" class="field-divided" placeholder="Nom" />&nbsp;<input type="text" name="field2" class="field-divided" placeholder="Prénom" />
+			</li>
+			
 			<li>
 				<label>Email <span class="required">*</span></label>
-				<input type="email" name="field3" class="field-long" />
+				<input type="email" name="field3" class="field-long" placeholder="exemple@gmail.com"/>
 			</li>
+			
+			<li>
+				<label>Adresse postale <span class="required">*</span></label>
+				<input type="email" name="field4" class="field-long" placeholder="42, rue de l'Exemple, 42424 Ville, Pays"/>
+			</li>
+			
+			<li>
+				<label>Coordonnées de type bancaire <span class="required">*</span></label>
+				<input type="text" name="field5" class="field-more-divided" placeholder="0000" />&nbsp;<input type="text" name="field6" class="field-more-divided" placeholder="0000" />&nbsp;<input type="text" name="field7" class="field-more-divided" placeholder="0000" />&nbsp;<input type="text" name="field8" class="field-more-divided" placeholder="0000" />
+			</li>
+			
 			<li>
 				<label>Type de commande</label>
-				<select name="field4" class="field-select">
-				<option value="Advertise">Express</option>
-				<option value="Partnership">Prends ton temps mec</option>
-				<option value="General Question">En vrai je m'en bats les couilles</option>
+				<select name="field9" class="field-select">
+				<option value="Express">Express (+ 1,00€)</option>
+				<option value="Classique">Classique (pas de frais supplémentaires)</option>
 				</select>
 			</li>
-			<li>
-				<label>Commentaire <span class="required">*</span></label>
-				<textarea name="field5" id="field5" class="field-long field-textarea"></textarea>
-			</li>
-			<a href="../panier.html"><button name='Ajouter au panier' type='button' style="cursor:pointer;">Ajouter au panier</button></a>
+			<li><a href="#"><button class="commit" name='Valider' type='button' style="cursor:pointer;">Valider</button></a></li>
 		</ul>
 		</form>
 	</article>
