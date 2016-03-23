@@ -1,4 +1,17 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+html {
+	font-family: 'Open Sans', sans-serif;
+	background:
+        url("fond.png") center;
+	background-attachment:fixed;
+	font-size: 85%;
+}
+
+a {
+	text-decoration:none;
+}
+
 #cssmenu {
   background: #E3D1B5;
   width: auto;
@@ -25,12 +38,6 @@
   padding: 0;
   margin: 0;
 }
-#cssmenu.align-right ul li {
-  float: right;
-}
-#cssmenu.align-center ul {
-  text-align: center;
-}
 #cssmenu ul li a {
   color: #000000;
   text-decoration: none;
@@ -47,10 +54,10 @@
   -o-transition: color .25s;
   transition: color .25s;
 }
-#cssmenu ul li a:hover {
+#cssmenu ul li a.link:hover {
   color: #ffffff;
 }
-#cssmenu ul li a:hover:before {
+#cssmenu ul li a.link:hover:before {
   width: 100%;
 }
 #cssmenu ul li a:after {
@@ -64,7 +71,7 @@
   background: #ffffff;
   opacity: .5;
 }
-#cssmenu ul li a:before {
+#cssmenu ul li a.link:before {
   content: "";
   display: block;
   position: absolute;
@@ -89,29 +96,9 @@
 #cssmenu ul li.active a:before {
   width: 100%;
 }
-#cssmenu.align-right li.last > a:after,
-#cssmenu.align-right li:last-child > a:after {
-  display: block;
-  
-}
-#cssmenu.align-right li:first-child a:after {
-  display: none;
-}
-
-html {
-	font-family: 'Open Sans', sans-serif;
-	background:
-        url("fond.png") center;
-	background-attachment:fixed;
-	font-size: 85%;
-}
 
 h1 {
 	margin-left: 20px;
-}
-
-a {
-	text-decoration:none;
 }
 
 aside {
@@ -240,6 +227,7 @@ ul.pagination li a.active {
 
 ul.pagination li a:hover:not(.active) {background-color: #ddd;}
 
+
 .float_center {
   float: right;
   clear: both;
@@ -250,6 +238,10 @@ ul.pagination li a:hover:not(.active) {background-color: #ddd;}
 .float_center > .child {
   position: relative;
   left: 50%;
+}
+
+.float_center h2 {
+	text-align:center;
 }
 
 .papertable {
