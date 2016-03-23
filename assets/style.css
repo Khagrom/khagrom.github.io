@@ -326,13 +326,7 @@ ul.pagination li a:hover:not(.active) {background-color: #ddd;}
 	font-weight:bold;
 	color:#ffffff;
 }
-.papertable tr:first-child:hover td{
-	background:-o-linear-gradient(bottom, #e3d1b5 5%, #e3d1b5 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #e3d1b5), color-stop(1, #e3d1b5) );
-	background:-moz-linear-gradient( center top, #e3d1b5 5%, #e3d1b5 100% );
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#e3d1b5", endColorstr="#e3d1b5");	background: -o-linear-gradient(top,#e3d1b5,e3d1b5);
 
-	background-color:#e3d1b5;
-}
 .papertable tr:first-child td:first-child{
 	border-width:0px 0px 1px 0px;
 }
